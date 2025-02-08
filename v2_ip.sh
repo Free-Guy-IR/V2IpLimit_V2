@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DEST_DIR="$(pwd)/V2IpLimit-Free-Guy-IRV2"
+# حذف کاراکترهای \r از فایل اسکریپت
+curl -Ls https://raw.githubusercontent.com/Free-Guy-IR/V2IpLimit_V2/main/v2_ip.sh | tr -d '\r' > /tmp/v2_ip_cleaned.sh
 
-git clone https://github.com/Free-Guy-IR/V2IpLimit_V2.git "$DEST_DIR"
-
-echo "Repository cloned to $DEST_DIR"
+# اجرای اسکریپت تمیز شده
+bash /tmp/v2_ip_cleaned.sh
