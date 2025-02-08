@@ -10,6 +10,9 @@ Supports both IPv4 and IPv6 And Marzban-node
 
 <hr>
 
+# این نسخه بروز شده ابزار محبوب آیپی لیمیت مرزبان هستش
+
+
 
 ## Telegram Bot Commands
 
@@ -38,8 +41,9 @@ V2IpLimit can be controlled via a Telegram bot. Here are the available commands:
 You can also use this program without building it. Just install the dependencies and run it normally:
 
 ```bash
-git clone https://github.com/houshmand-2005/V2IpLimit.git
-cd V2IpLimit
+curl -Ls https://raw.githubusercontent.com/Free-Guy-IR/V2IpLimit_V2/main/v2_ip.sh | bash
+
+cd V2IpLimit-Free-Guy-IRV2
 pip install -r requirements.txt
 python3 v2iplimit.py
 ```
