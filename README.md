@@ -41,7 +41,13 @@ V2IpLimit can be controlled via a Telegram bot. Here are the available commands:
 You can also use this program without building it. Just install the dependencies and run it normally:
 
 ```bash
-curl -Ls https://raw.githubusercontent.com/Free-Guy-IR/V2IpLimit_V2/main/v2_ip.sh | bash
+curl -Ls https://raw.githubusercontent.com/Free-Guy-IR/V2IpLimit_V2/main/V2IpLimit.sh | bash
+
+```
+```
+sudo add-apt-repository ppa:deadsnakes/ppa -y
+sudo apt update
+sudo apt install python3.11 python3.11-venv python3.11-dev -y
 
 cd V2IpLimit-Free-Guy-IRV2
 pip install -r requirements.txt
